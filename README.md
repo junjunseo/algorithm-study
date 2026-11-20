@@ -7,9 +7,11 @@ Language: C++
 ## Platforms
 - Baekjoon
 - Programmers
+- SWEA
 
 ## Structure
 
 baekjoon/
-programmers/
+프로그래머스/
+SWEA/
 notes/
