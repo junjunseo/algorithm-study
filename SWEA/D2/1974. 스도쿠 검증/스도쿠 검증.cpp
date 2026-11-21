@@ -23,8 +23,8 @@ int main(int argc, char** argv)
         int answer=1;
         
         // 모든 칸에 대해 검사
-        for(int i=0; i<9; i++) {
-            for(int j=0; j<9; j++) {
+        for(int i=0; i<9 && answer==1; i++) {
+            for(int j=0; j<9 && answer==1; j++) {
                 for(int k=0; k<9; k++) {
                     // 행 검사
                     if(k!=j && map[i][k] == map[i][j]) {
